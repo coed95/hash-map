@@ -1,6 +1,6 @@
 import { LinkedList } from "./linked-list.js";
 
-class HashMap {
+export class HashMap {
     constructor(size = 16) {
         this.buckets = new Array(size).fill(null).map(() => new LinkedList());
     }
